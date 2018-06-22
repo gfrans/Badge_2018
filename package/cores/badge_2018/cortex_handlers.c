@@ -44,7 +44,9 @@ void RTC_Shiz(void)
     *(unsigned char *)(0x40001400+0x8) = 0x1;
 
     // * set {unsigned char} 0x41004400+0x1d = 0x1 -- will toggle pa08, which should be the LED pin
-    *(unsigned char *)(0x41004400+0x1d) = 0x1;
+    //*(unsigned char *)(0x41004400+0x1d) = 0x1;
+
+    // return to thread mode from handler mode
     __asm__ __volatile__ ("BX LR");
 }
 

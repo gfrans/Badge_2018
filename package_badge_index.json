@@ -1,0 +1,99 @@
+{
+  "packages": [
+    {
+      "maintainer": "Badge",
+      "help": {
+        "online": "https://www.google.com"
+      },
+      "websiteURL": "https://www.google.com",
+      "platforms": [
+        {
+          "name": "Badges",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Badge",
+          "url": "https://github.com/gfrans/Badge_2018/blob/master/package.tar.bz2",
+          "archiveFileName": "package.tar.bz2",
+          "checksum": "SHA-256:151a273d53f7eba489b66393c976f008a589d1279452e1c370263f1a9c65188e",
+          "size": "1941297",
+          "help": {
+            "online": "https://www.google.com"
+          },
+          "boards": [
+            {
+              "name": "Badge 2018 -- Without Bootloader"
+            },
+            {
+              "name": "Badge 2018 -- With Bootloader"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0.0",
+          "name": "wiced_dfu",
+          "systems": [
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux32.tar.gz",
+              "checksum": "MD5:355f25629740182d0ead5bc0b8aad42f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux32.tar.gz",
+              "size": "28295"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-linux64.tar.gz",
+              "checksum": "MD5:ae36e3e3a35ac507955a3ee4f18e4bb7",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "wiced_dfu-1.0.0-linux64.tar.gz",
+              "size": "28667"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-mac.tar.gz",
+              "checksum": "MD5:df388f13c1c76cb4b88a195e5b179b70",
+              "host": "i386-apple-darwin11",
+              "archiveFileName": "wiced_dfu-1.0.0-mac.tar.gz",
+              "size": "3742"
+            },
+            {
+              "url": "https://github.com/adafruit/Adafruit_WICED_Arduino/releases/download/build-tools/wiced_dfu-1.0.0-win32.tar.gz",
+              "checksum": "MD5:7cbb7ab21c6a524285be5326e3a1009e",
+              "host": "i686-mingw32",
+              "archiveFileName": "wiced_dfu-1.0.0-win32.tar.gz",
+              "size": "525710"
+            }
+          ]
+        }
+      ],
+      "email": "badges@badges.com",
+      "name": "Badge"
+    }
+  ]
+}

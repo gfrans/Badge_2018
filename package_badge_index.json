@@ -12,7 +12,7 @@
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Badge",
-          "url": "https://github.com/gfrans/Badge_2018/raw/master/package.tar.bz2",
+          "url": "https://github.com/gfrans/Badge_2018/blob/master/package.tar.bz2?raw=true",
           "archiveFileName": "package.tar.bz2",
           "checksum": "SHA-256:151a273d53f7eba489b66393c976f008a589d1279452e1c370263f1a9c65188e",
           "size": "1941297",

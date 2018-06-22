@@ -39,8 +39,6 @@ badge_2018_nobl.build.variant=badge_2018
 badge_2018_nobl.build.variant_system_lib=
 badge_2018_nobl.build.vid=0x03EB
 badge_2018_nobl.build.pid=0x2402
-badge_2018_nobl.bootloader.tool=openocd
-badge_2018_nobl.bootloader.file=badge_2018/bootloader_uf2.bin
 
 badge_2018_bl.name=Badge 2018 -- With Bootloader
 badge_2018_bl.vid.0=0x03EB

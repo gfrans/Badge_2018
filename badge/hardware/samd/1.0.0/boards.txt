@@ -16,7 +16,7 @@
 
 menu.cache=Cache
 
-badge_2018_nobl.name=Badge 2018 -- No Bootloader
+badge_2018_nobl.name=Badge 2018 -- Without Bootloader
 badge_2018_nobl.vid.0=0x239A
 badge_2018_nobl.pid.0=0x801E
 badge_2018_nobl.vid.1=0x239A
@@ -43,3 +43,31 @@ badge_2018_nobl.build.vid=0x239A
 badge_2018_nobl.build.pid=0x801E
 badge_2018_nobl.bootloader.tool=openocd
 badge_2018_nobl.bootloader.file=badge_2018/bootloader_uf2.bin
+
+badge_2018_bl.name=Badge 2018 -- With Bootloader
+badge_2018_bl.vid.0=0x239A
+badge_2018_bl.pid.0=0x801E
+badge_2018_bl.vid.1=0x239A
+badge_2018_bl.pid.1=0x001E
+badge_2018_bl.upload.tool=bossac18
+badge_2018_bl.upload.protocol=sam-ba
+badge_2018_bl.upload.maximum_size=131072
+badge_2018_bl.upload.offset=0x2000
+badge_2018_bl.upload.use_1200bps_touch=true
+badge_2018_bl.upload.wait_for_upload_port=true
+badge_2018_bl.upload.native_usb=true
+badge_2018_bl.build.mcu=cortex-m0plus
+badge_2018_bl.build.f_cpu=48000000L
+badge_2018_bl.build.usb_product="Badge"
+badge_2018_bl.build.usb_manufacturer="Cisco"
+badge_2018_bl.build.board=BADGE_2018
+badge_2018_bl.build.core=badge_2018
+badge_2018_bl.build.extra_flags=-DCRYSTALLESS -DBADGE_2018 -D__SAMD21E17A__ -DARM_MATH_CM0PLUS {build.usb_flags}
+badge_2018_bl.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+badge_2018_bl.build.openocdscript=openocd_scripts/arduino_zero.cfg
+badge_2018_bl.build.variant=badge_2018
+badge_2018_bl.build.variant_system_lib=
+badge_2018_bl.build.vid=0x239A
+badge_2018_bl.build.pid=0x801E
+badge_2018_bl.bootloader.tool=openocd
+badge_2018_bl.bootloader.file=badge_2018/bootloader_uf2.bin

@@ -14,8 +14,8 @@
           "category": "Badge",
           "url": "https://github.com/gfrans/Badge_2018/blob/master/package.tar.bz2?raw=true",
           "archiveFileName": "package.tar.bz2",
-          "checksum": "SHA-256:151a273d53f7eba489b66393c976f008a589d1279452e1c370263f1a9c65188e",
-          "size": "1941297",
+          "checksum": "SHA-256:792c74280b678239cdbf6361a4bdf410f23731894bbe16484f9d612dedb6c88a",
+          "size": "1942514",
           "help": {
             "online": "https://www.google.com"
           },
@@ -93,7 +93,7 @@
         }
       ],
       "email": "badges@badges.com",
-      "name": "Badge"
+      "name": "badge"
     }
   ]
 }
